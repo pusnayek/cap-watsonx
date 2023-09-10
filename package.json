@@ -30,7 +30,9 @@
     "cds": {
         "requires": {
             "db": "hana-cloud",
-            "auth": "xsuaa"
+            "auth": {
+                "kind": "dummy"
+            }            
         }
     },
     "workspaces": [
